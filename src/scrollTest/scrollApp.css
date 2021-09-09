@@ -1,0 +1,57 @@
+.scrollApp-container {
+  width: 100%;
+  height: 1000vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollApp-wrapper {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.scrollApp-wrapper .box-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 50vh;
+}
+.scrollApp-wrapper .box-wrapper div {
+  width: 100%;
+  height: 100px;
+}
+.scrollApp-wrapper .box-wrapper span {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+.scrollApp-wrapper .boxName {
+  top: 43%;
+  left: 40%;
+  font-size: 4rem;
+}
+.scrollApp-wrapper .lastPx {
+  bottom: 0px;
+  left: 0px;
+  font-size: 1rem;
+}
+.scrollApp-wrapper .box-wrapper:nth-child(1) {
+  margin-bottom: 80vh;
+  background-color: rgb(198, 121, 121);
+}
+.scrollApp-wrapper .box-wrapper:nth-child(4n-3) {
+  background-color: rgb(198, 121, 121);
+}
+.scrollApp-wrapper .box-wrapper:nth-child(4n-2) {
+  background-color: rgb(198, 157, 121);
+}
+.scrollApp-wrapper .box-wrapper:nth-child(4n-1) {
+  background-color: rgb(121, 123, 198);
+}
+.scrollApp-wrapper .box-wrapper:nth-child(4n) {
+  background-color: rgb(198, 121, 166);
+}

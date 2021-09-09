@@ -1,0 +1,138 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+}
+
+.main__bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+  z-index: -2;
+  filter: blur(1.5px);
+}
+
+.main_wrapper, .side_wrapper {
+  width: 45vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_wrapper {
+  align-content: center;
+  align-items: center;
+}
+
+.side_wrapper {
+  width: 55vw;
+}
+
+.top_space {
+  height: 80px;
+}
+
+.main_title {
+  height: 200px;
+  width: 45vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+
+  font-weight: 700;
+  color: white;
+}
+
+.main_title__country {
+  font-size: 35px;
+
+  position: relative;
+
+  top: 48px;
+}
+
+.main_title__city {
+  font-size: 130px;
+
+  position: relative;
+
+  top: 20px;
+}
+
+.main_icon {
+  width: 45vw;
+  height: 330px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_weatherIcon {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.main_description{
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  padding: 20px 10px;
+
+  
+
+  font-weight: 400;
+  font-size: 110px;
+}
+
+.main_description__temp {
+  font-size: 70px;
+  color: yellow;
+
+  padding-right: 25px;
+}
+
+.main_description__state {
+  color: skyblue;
+}
+
+.clock_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  height: 130px;
+}
+
+.clock {
+  position: relative;
+  top: 40px;
+  font-weight: 400;
+  font-size: 100px;
+  color: white;
+}
+
+.card_wrapper {
+  position: relative;
+  width: 55vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

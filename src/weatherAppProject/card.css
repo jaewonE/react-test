@@ -1,0 +1,52 @@
+.card {
+    position: relative;
+    width: 320px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 25px 0px;
+}
+  
+.card__bg{
+    position: absolute;
+    object-fit: cover;
+    width: 320px;
+    height: 160px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    z-index : -1;
+    border: 2px solid rgba(0,0,0,0.5);
+    /*filter: blur(1.5px);*/
+}
+
+.card__info {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+}
+
+.card__name {
+    top: 53px;
+    left: 13px;
+    font-size: 50px;
+}
+
+.card__time {
+    top: 110px;
+    left: 13px;
+    font-size: 28px;
+}
+
+.card__state {
+    color: skyblue;
+    bottom: 0px;
+    right: 10px;
+    font-size: 50px;
+}
+
+.card__temp {
+    color: yellow;
+    bottom: 50px;
+    right: 13px;
+    font-size: 28px;
+}

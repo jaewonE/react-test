@@ -1,0 +1,14 @@
+@import url('weatherAppProject/card.css');
+@import url('weatherAppProject/renderLoading.css');
+@import url('weatherAppProject/renderPage.css');
+
+.card_wrapper {
+  position: relative;
+  right: 0px;
+
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
