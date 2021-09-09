@@ -14,8 +14,7 @@ const Navigation = ({ darkMode, setDarkMode }) => {
         <Link to="/scrollApp">ScrollApp</Link>
       </div>
       <div className="set-darkMode">
-        <div onClick={() => setDarkMode(false)}>Light Mode</div>
-        <div onClick={() => setDarkMode(true)}>Dark Mode</div>
+        <div onClick={() => setDarkMode(!darkMode)}>{darkMode ? "Dark Mode" : "Light Mode"}</div>
       </div>
     </div>
   );
