@@ -12,11 +12,11 @@ const BoxComponents = ({ animate = 'fade' }) => {
       data-aos-duration="600"
     >
       <span className="boxName">{animate}</span>
+      <span className="lastPx">--000px</span>
       <div>--100px</div>
       <div>--200px</div>
       <div>--300px</div>
       <div>--400px</div>
-      <span className="lastPx">--500px</span>
     </div>
   );
 };
